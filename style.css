@@ -101,8 +101,11 @@ nav ul li a{
 
 
 
-@media screen and (min-width: 768px) {
+@media screen and (min-width: 769px) {
 
+    menu-section{
+        display: none;
+    }
 
     nav{
         flex-direction: row;
