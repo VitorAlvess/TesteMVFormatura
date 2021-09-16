@@ -1,0 +1,214 @@
+body{
+    margin: 0px;
+    padding: 0px;
+    font-family: 'Holtwood One SC', serif;
+    border: hidden;
+    text-decoration: none;
+}
+.logo{
+    height:8em;
+    width:8em;
+    
+}
+
+div a img{
+    height:2em;
+    width:2em;
+}
+
+
+
+nav{
+    display: flex;
+    flex-direction: column;
+    align-items:center;
+    background-color: rgb(255, 168, 168);
+}
+
+nav ul{
+    display: flex;
+    flex-direction: column;
+    align-items:center;
+    list-style: none;
+    padding: 0;
+    width: 100%;
+    
+
+}
+
+nav ul li{
+    text-align: center;
+    width: 100%;
+}
+
+nav ul li a{
+    display: inline-block;
+    font-size: 1.5rem;
+    padding: 2px 0;
+    width: 100%;
+    text-decoration: none;
+    color: #000000;
+}
+
+.escolha{
+    display:flex;
+    align-items: center;
+    justify-content: space-between;
+    
+    
+}
+.yellow{
+    margin-left: 40px;
+    width: 5vh;
+    height: 20vh;
+    background-color: #F9D189;
+    align-items: center;
+    border-radius: 10px;
+}
+.escolha img{
+    width: 30%;
+    padding-right: 15px;
+}
+
+.escolha p{
+    color: #FF6060;
+    font-size: 175%;
+    padding-left: 15px;
+}
+
+.quemsomos h1{
+    text-align: center;
+    color: #FF6060;
+    font-size: 2.2rem;
+}
+
+.conteudoquemsomos{
+    display:flex;
+    align-items: center;
+}
+
+.conteudoquemsomos img{
+    height:10em;
+    width:10em;
+
+}
+
+.conteudoquemsomos p{
+    font-size: 0.85rem;
+    font-family: 'Roboto', sans-serif;
+    margin-left: 1rem;
+}
+
+.bannerdedados{
+    
+    width:100%;
+    position: relative;
+    display: flex;
+}
+.bannerdedados img{
+    
+    width: 100%;
+    
+}
+
+
+
+.item1{
+    width: 20%; /* 15% tela grande */
+    background-color: #f8f6ef;
+    position: absolute;
+    text-align: center;
+    top: 50%;
+    left: 45%;
+    transition: translate(-50%, -50);
+    box-shadow: 1px 5px 5px black;
+    font-size: 0.5rem;
+    /* font-size: 1rem; Tela grande */
+
+    
+    
+}
+
+
+.item2{
+    width: 20%; /* 15% tela grande */
+    background-color: #f8f6ef;
+    position: absolute;
+    text-align: center;
+    top: 50%;
+    left: 75%;
+    transition: translate(-50%, -50);
+    box-shadow: 1px 5px 5px black;
+    font-size: 0.5rem;
+    /* font-size: 1rem; Tela grande */
+    
+}
+
+.item3{
+    width: 20%; /* 15% tela grande */
+    background-color: #f8f6ef;
+    position: absolute;
+    text-align: center;
+    top: 50%;
+    left: 15%;
+    transition: translate(-50%, -50);
+    box-shadow: 1px 5px 5px black;
+    font-size: 0.5rem;
+    /* font-size: 1rem; Tela grande */
+    
+}
+
+
+
+
+@media screen and (min-width: 769px) {
+
+
+    nav{
+        flex-direction: row;
+        justify-content: space-around;
+    }
+
+    nav ul{
+        flex-direction: row;
+        width: 70%;
+    }
+    .escolha img{
+        width: 25%;
+       
+    }
+
+    .escolha p{
+        font-size: 275%;
+    }
+
+    .yellow{
+        height: 35vh;
+    }
+
+
+    .quemsomos h1{
+
+        font-size: 3.2rem;
+    }
+
+    .conteudoquemsomos p{
+        font-size: 1.2rem;
+        margin-left: 10rem;
+        width: 700px;
+    }
+
+    .conteudoquemsomos img{
+        height:20em;
+        width:20em;
+    
+    }
+
+
+    .item1, .item2, .item3{
+        font-size: 1rem;
+        width: 15%;
+    }
+
+    
+}
