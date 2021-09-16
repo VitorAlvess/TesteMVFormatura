@@ -119,7 +119,7 @@ nav ul li a{
     position: absolute;
     text-align: center;
     top: 50%;
-    left: 43%;
+    left: 42%;
     transition: translate(-50%, -50);
     box-shadow: 1px 5px 5px black;
     font-size: 0.5rem;
@@ -150,7 +150,7 @@ nav ul li a{
     position: absolute;
     text-align: center;
     top: 50%;
-    left: 13%;
+    left: 12%;
     transition: translate(-50%, -50);
     box-shadow: 1px 5px 5px black;
     font-size: 0.5rem;
