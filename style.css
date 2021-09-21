@@ -200,9 +200,10 @@ nav ul li a{
     -moz-border-radius: 7px;
     border-radius: 7px;
     color: #FFFFFF;
-    font-family: Tahoma;
+    font-family: 'Roboto', sans-serif;
+    /* font-family: 'Holtwood One SC', serif; */
     font-size: 1rem;
-    font-weight: 100;
+   
     padding: 10px 20px;
     background-color: #FF0000;
     text-decoration: none;
