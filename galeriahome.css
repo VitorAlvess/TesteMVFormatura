@@ -1,0 +1,423 @@
+.galeria h1{
+    text-align: center;
+    padding: 1rem;
+    color: #FF6060;
+    font-size: 2.2rem;
+   
+}
+
+a.button{
+   -webkit-appearance: button;
+   -moz-appearance: button;
+   appearance: button;
+   text-decoration: none;
+   color: initial;
+}
+
+/**                                            */
+.image1{
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   width: 20%; 
+}
+
+.image1:hover{
+   transform: scale(1.03);  /*Dar uma olhada nos efeitos */
+   /* transform: rotate(2deg);     */
+   box-shadow: 0 5px 15px rgba(0,0,0,0.6); 
+   border-radius: 10px;
+}
+.image1 a {
+   width: 100%;
+   height: 100%;
+   
+}
+.image1 a img{
+   width: 100%;
+   height: 100%;
+   border-radius: 10px;
+  
+}
+
+
+
+
+a.button{
+   -webkit-appearance: button;
+   -moz-appearance: button;
+   appearance: button;
+
+   text-decoration: none;
+   color: initial;
+}
+
+.conteudoimage1{
+   position: absolute;
+   font-size: 0.5rem;
+   
+   
+   
+}
+
+.conteudoimage1 a{
+   color: #FFFFFF;
+   filter: drop-shadow(0px 0px 10px rgb(0, 0, 0));
+   letter-spacing: 2px;
+   display: flex;
+   justify-content: center;
+   text-decoration: none;
+   align-items: center;
+   filter: brightness(100%); /*isso aq é teste*/
+}
+
+
+
+
+/*----------------------------------------------------------------*/
+.image2{
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   position:relative;
+   
+   width:20%; 
+}
+
+.image2:hover{
+   transform: scale(1.03);  /*Dar uma olhada nos efeitos */
+   /* transform: rotate(2deg);     */
+   box-shadow: 0 5px 15px rgba(0,0,0,0.6); 
+   border-radius: 10px;
+
+}
+.image2 a {
+   width: 100%;
+   height: 100%;
+   
+}
+.image2 a img{
+   width: 100%;
+   height: 100%;
+   border-radius: 10px;
+  
+}
+
+
+
+
+
+.conteudoimage2{
+   position: absolute;
+   font-size: 0.5rem;
+   
+   
+   
+   
+}
+
+.conteudoimage2 a{
+   color: #FFFFFF;
+   filter: drop-shadow(0px 0px 10px black);
+   letter-spacing: 2px;
+   display: flex;
+   justify-content: center;
+   text-decoration: none;
+   align-items: center;
+   
+   
+}
+
+
+
+
+/* =================================================================*/
+
+.image3{
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   position:relative;
+   width:20%; 
+}
+
+.image3:hover{
+   transform: scale(1.03);  /*Dar uma olhada nos efeitos */
+   /* transform: rotate(2deg);     */
+   box-shadow: 0 5px 15px rgba(0,0,0,0.6); 
+   border-radius: 10px;
+}
+.image3 a {
+   width: 100%;
+   height: 100%;
+   
+}
+.image3 a img{
+   width: 100%;
+   height: 100%;
+   border-radius: 10px;
+   
+   
+   
+}
+
+
+
+
+
+a.button{
+   -webkit-appearance: button;
+   -moz-appearance: button;
+   appearance: button;
+
+   text-decoration: none;
+   color: initial;
+}
+
+.conteudoimage3{
+   position: absolute;
+   font-size: 0.5rem;
+   
+   
+   
+}
+
+.conteudoimage3 a{
+   color: #ffffff;
+   filter: drop-shadow(0px 0px 10px rgb(0, 0, 0));
+  
+
+   
+   letter-spacing: 2px;
+   display: flex;
+   justify-content: center;
+   text-decoration: none;
+   align-items: center;
+}
+
+/* =================================================================*/
+
+
+
+.kitimage1{
+    display: flex;
+    justify-content: space-around;
+    /* background-color: blue */
+}
+
+.kitimage2{
+   margin-top: 1.5rem;
+   display: flex;
+   justify-content: space-around;
+}
+
+
+/* ==============================*/
+
+.image4{
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   position:relative;
+   width:20%; 
+}
+
+.image4:hover{
+   transform: scale(1.03);  /*Dar uma olhada nos efeitos */
+   /* transform: rotate(2deg);     */
+   box-shadow: 0 5px 15px rgba(0,0,0,0.6); 
+   border-radius: 10px;
+}
+.image4 a {
+   width: 100%;
+   height: 100%;
+   
+}
+.image4 a img{
+   width: 100%;
+   height: 100%;
+   border-radius: 10px;
+  
+}
+
+
+
+
+a.button{
+   -webkit-appearance: button;
+   -moz-appearance: button;
+   appearance: button;
+
+   text-decoration: none;
+   color: initial;
+}
+
+.conteudoimage4{
+   position: absolute;
+   font-size: 0.5rem;
+   
+   
+   
+}
+
+.conteudoimage4 a{
+   color: #ffffff;
+   filter: drop-shadow(0px 0px 10px rgb(0, 0, 0));
+   font: bold;
+   letter-spacing: 2px;
+   display: flex;
+   justify-content: center;
+   text-decoration: none;
+   align-items: center;
+   filter: brightness(100%);
+}
+
+/* -=========*/
+
+.image5{
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   position:relative;
+   width:20%; 
+}
+
+.image5:hover{
+   transform: scale(1.03);  /*Dar uma olhada nos efeitos */
+   /* transform: rotate(2deg);     */
+   box-shadow: 0 5px 15px rgba(0,0,0,0.6); 
+   border-radius: 10px;
+}
+.image5 a {
+   width: 100%;
+   height: 100%;
+   
+}
+.image5 a img{
+   width: 100%;
+   height: 100%;
+   border-radius: 10px;
+  
+
+}
+
+
+
+
+a.button{
+   -webkit-appearance: button;
+   -moz-appearance: button;
+   appearance: button;
+
+   text-decoration: none;
+   color: initial;
+}
+
+.conteudoimage5{
+   position: absolute;
+   font-size: 0.5rem;
+   
+   
+   
+}
+
+.conteudoimage5 a{
+   color: #FFFFFF;
+   filter: drop-shadow(0px 0px 10px rgb(0, 0, 0));
+   letter-spacing: 2px;
+   display: flex;
+   justify-content: center;
+   text-decoration: none;
+   align-items: center;
+   filter: brightness(100%);
+}
+
+
+
+/* ============================== */
+
+
+
+
+.image6{
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   position:relative;
+   width:20%; 
+}
+
+.image6:hover{
+   transform: scale(1.03);  /*Dar uma olhada nos efeitos */
+   /* transform: rotate(2deg);     */
+   box-shadow: 0 5px 15px rgba(0,0,0,0.6); 
+   border-radius: 10px;
+}
+.image6 a {
+   width: 100%;
+   height: 100%;
+   
+}
+.image6 a img{
+   width: 100%;
+   height: 100%;
+   border-radius: 10px;
+  
+}
+
+
+
+
+a.button{
+   -webkit-appearance: button;
+   -moz-appearance: button;
+   appearance: button;
+
+   text-decoration: none;
+   color: initial;
+}
+
+.conteudoimage6{
+   position: absolute;
+   font-size: 0.5rem;
+   
+   
+   
+}
+
+.conteudoimage6 a{
+   color: #FFFFFF;
+   filter: drop-shadow(0px 0px 10px black);
+   letter-spacing: 2px;
+   display: flex;
+   justify-content: center;
+   text-decoration: none;
+   align-items: center;
+   filter: brightness(100%);
+}
+
+
+@media screen and (min-width: 769px) {
+    .galeria h1{
+        font-size: 3.2rem
+    }
+    .conteudoimage1{
+        font-size: 1rem;
+    }
+    .conteudoimage2{
+        font-size: 1rem;
+      }
+
+    .conteudoimage3{
+      font-size: 1rem;
+    }
+    .conteudoimage4{
+      font-size: 1rem;
+    }
+    .conteudoimage5{
+        font-size: 1rem;
+    }
+     .conteudoimage6{
+        font-size: 1rem;
+    }
+}

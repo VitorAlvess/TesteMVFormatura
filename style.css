@@ -213,7 +213,24 @@ nav ul li a{
     
 
  }
+
+
+
  
+
+ .oi{
+    display: flex;
+    justify-content: center;
+ }
+
+ #HAHAHA{
+     margin-top: 20px;
+     width: 20%;
+     font-size: 0.6rem;
+     background-color: red;
+     color: white;
+}
+
  .entreemcontato:hover {
     border: solid #CB2E2E 0;
     background: #FF0000;
@@ -281,8 +298,31 @@ nav ul li a{
         font-size: 1.5rem;
         
     }
+    
     .entreemcontato{
         font-family: 'Roboto', sans-serif;
-        font-size: 1.5rem;
+        font-size: 1rem;
+    }
+    .galeria h1{
+        font-size: 3.2rem
+    }
+    .conteudoimage1{
+        font-size: 1rem;
+    }
+    .conteudoimage2{
+        font-size: 1rem;
+      }
+
+    .conteudoimage3{
+      font-size: 1rem;
+    }
+    .conteudoimage4{
+      font-size: 1rem;
+    }
+    .conteudoimage5{
+        font-size: 1rem;
+    }
+     .conteudoimage6{
+        font-size: 1rem;
     }
 }
