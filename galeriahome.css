@@ -38,10 +38,14 @@ a.button{
 
 
 .imagem{
-   width: 25%;
+   width: 30%;
    position: relative;
    transition:all 0.3s ease;
   
+}
+
+.kitimagem + .kitimagem{
+   margin-top: 1.5rem
 }
 .imagem:hover{
    transform: scale(1.1);
