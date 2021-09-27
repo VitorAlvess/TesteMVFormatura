@@ -8,11 +8,13 @@ footer{
 
 .logofooter{
     width: 30%;
+    
 
 }
 
 .logofooter img{
     width: 100%;
+    
 }
 
 .conteudofooter{
@@ -34,4 +36,32 @@ footer{
 .mapa{
     width: 100%;
     height: 20rem;
+}
+
+
+
+@media screen and (min-width: 769px) { 
+    footer{
+        flex-direction: row;
+        justify-content: space-evenly;
+    }
+    .conteudofooter{
+        display: flex;
+        flex-direction: row;
+        height: 100%;
+       
+    }
+
+    .contatofooter{
+
+        text-align: start;
+        margin-right: 2.5rem ;
+    }
+
+    .mapa{
+        width: 20rem; /*largura */
+        height: 18rem; /* Altura */
+        
+    }
+
 }
