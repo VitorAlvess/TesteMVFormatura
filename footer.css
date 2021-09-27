@@ -1,0 +1,32 @@
+footer{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    background-color: #000000
+}
+
+.logofooter{
+    width: 30%;
+
+}
+
+.logofooter img{
+    width: 100%;
+}
+
+.conteudofooter{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+.contatofooter{
+    text-align: center;
+    color: #ffffff;
+}
+
+.contatofooter p{
+    font-family: 'Roboto', sans-serif;
+
+}
