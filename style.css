@@ -4,6 +4,7 @@ body{
     font-family: 'Holtwood One SC', serif;
     border: hidden;
     text-decoration: none;
+    
 }
 .logo{
     height:8em;
@@ -11,7 +12,7 @@ body{
     
 }
 
-div a img{
+.icones a img{
     height:2em;
     width:2em;
 }
@@ -251,6 +252,7 @@ nav ul li a{
     nav{
         flex-direction: row;
         justify-content: space-around;
+        color: #CB2E2E;
     }
 
     nav ul{
@@ -303,26 +305,5 @@ nav ul li a{
         font-family: 'Roboto', sans-serif;
         font-size: 1rem;
     }
-    .galeria h1{
-        font-size: 3.2rem
-    }
-    .conteudoimage1{
-        font-size: 1rem;
-    }
-    .conteudoimage2{
-        font-size: 1rem;
-      }
-
-    .conteudoimage3{
-      font-size: 1rem;
-    }
-    .conteudoimage4{
-      font-size: 1rem;
-    }
-    .conteudoimage5{
-        font-size: 1rem;
-    }
-     .conteudoimage6{
-        font-size: 1rem;
-    }
+    
 }
